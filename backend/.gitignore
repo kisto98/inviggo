@@ -1,0 +1,48 @@
+# --- OS-Specific ---
+*.DS_Store
+*.sw?
+.#*
+*#
+*~
+Thumbs.db
+desktop.ini
+
+# --- IDE ---
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+bin/
+
+# --- Build Directories ---
+target/
+build/
+bin/
+out/
+!**/src/main/**/out/
+
+# --- Gradle ---
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# --- Maven ---
+dependency-reduced-pom.xml
+*.releaseBackup
+*.versionsBackup
+*.original
+
+# --- Logs ---
+*.log
+*.log.*
+logs/
+
+# --- Others ---
+*.sublime-*
+/scratch
+dependency-reduced-pom.xml
+*.factorypath

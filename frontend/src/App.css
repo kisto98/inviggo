@@ -1,0 +1,212 @@
+:root {
+  --primary: #4361ee;
+  --secondary: #3f37c9;
+  --accent: #4895ef;
+  --light: #f8f9fa;
+  --dark: #212529;
+  --success: #4cc9f0;
+  --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --card-hover: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.ad-image {
+  height: 200px;
+  object-fit: cover;
+}
+
+.filter-container {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+.pagination {
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.form-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.badge {
+  margin-right: 5px;
+}
+
+.ad-detail-image {
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.auth-form {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form h2 {
+  color: #333;
+}
+
+.auth-form .form-label {
+  font-weight: 500;
+}
+
+.auth-form a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.auth-form a:hover {
+  text-decoration: underline;
+}
+
+body {
+  /* padding-top: 56px; */
+   background-color: #f5f7fa;
+  color: var(--dark);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-page {
+  margin-top: 20px;
+}
+
+/* Smooth transitions */
+.hover-shadow {
+  transition: all 0.3s ease;
+}
+.hover-shadow:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.text-primary {
+  color: #4361ee !important;
+}
+
+/* Ensure consistent card heights */
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.card-body {
+  flex: 1;
+}
+
+/* Footer alignment */
+.card-footer {
+  padding-top: 0;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--light);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 4px;
+}
+
+/* Bootstrap overrides */
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+.btn-primary:hover {
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+}
+
+/* Image handling */
+.object-fit-cover {
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Advertisement Detail Page Styles */
+.ad-detail-container {
+  max-width: 1200px;
+}
+
+.ad-detail-image-container {
+  background-color: #f8f9fa;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ad-detail-image {
+  max-height: 600px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.ad-detail-info {
+  padding: 2rem;
+}
+
+.ad-detail-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--dark);
+}
+
+.ad-detail-price {
+  font-size: 1.8rem;
+  color: var(--primary);
+}
+
+.ad-detail-meta {
+  color: #6c757d;
+}
+
+.ad-detail-meta svg {
+  min-width: 20px;
+}
+
+.ad-detail-description {
+  white-space: pre-line;
+  line-height: 1.8;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .ad-detail-title {
+    font-size: 1.5rem;
+  }
+  
+  .ad-detail-price {
+    font-size: 1.4rem;
+  }
+  
+  .ad-detail-info {
+    padding: 1.5rem;
+  }
+
+   .form-container {
+    padding: 15px;
+  }
+}
